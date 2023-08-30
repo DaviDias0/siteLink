@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/menunav.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Quem sou Eu</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#comeco">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Meus Projetos</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+
+<div id="comeco">
+    <form action="login.php" method="post"></form>
+    
+    <h1>Davi</h1>
+    <h2>Dias</h2>
+
+    <legend>Bem Vindo
+    <p>
+    Olá Sr(A) este é
+    o meu site "Davi Dias"
+    realizado com
+    uma proposta
+    de desafio do
+    <a href="https://www.senacrs.com.br/" target="_blank">SENACRS</a>
+    falarei aqui
+    um pouco mais
+    sobre mim, neste site irá conter 
+informações de projetos realizados
+por mim e muitas outras informações.</p>
+<h4>Se Divirta!!!</h4>
+</legend>
+
+    
+</div>   
+
+
+
+
+<section>
+<div id="sobre">
+    <h5>Sobre Mim</h5>
+    <h1>Passe o mouse para visualizar melhor a forma</h1>
+    <section>
+    <ul id="albumfotos">
+                <li id="foto01">
+                    <span>
+                    Sou o Davi Dias tenho 18 Anos
+                    </span>
+                </li>
+
+                <li id="foto02">
+                    <span>
+                    Nasci no dia 6 de Fevereiro no Ano de 2005
+                    </span>
+                </li>
+
+                <li id="foto03">
+                    <span>
+                    Estou cursando TDS no SenacTech
+                    </span>
+                </li>
+
+                <li id="foto04">
+                    <span>
+                    Especialidades em JAVA, SQL, HTML, CSS
+                    </span>
+                </li>
+
+                <li id="foto05">
+                    <span>
+                    No momento estudo CSS, HTML, PHYTON
+                    </span>
+                </li>
+
+
+
+</div>
+</section>
+
+<div id="projetos">
+    <h6>Meus Projetos</h6>
+    <h1>Passe o mouse para visualizar melhor a forma</h1>
+    <section>
+        <ul id="albumfotosP">
+                    <li id="foto01">
+                        <span>
+                        Feito em Java uma capa de um projeto feito para apresentação
+                        </span>
+                    </li>
+    
+                    <li id="foto02">
+                        <span>
+                        Cadastro de um fornecedor com forma de exemplo
+                        </span>
+                    </li>
+    
+                    <li id="foto03">
+                        <span>
+                        Manutenção do Fornecedor para Alterar, Excluir, Limpar e Preencher
+                        </span>
+                    </li>
+    
+                    <li id="foto04">
+                        <span>
+                        Apresentação sobre Git e GitHub
+                        </span>
+                    </li>
+    
+                    <li id="foto05">
+                        <span>
+                        Site feito com um tema alatório que foi disponiblizado para a escolha por si só
+                        </span>
+                    </li>
+
+                    <li id="foto06">
+                        <span>
+                        Apresentação de URL feito totalmente em Inglês
+                        </span>
+                    </li>
+
+                    <li id="foto07">
+                        <span>
+                        Galeria do Site Do Grêmio Feito em HTML e CSS
+                        </span>
+                    </li>
+
+                    <li id="foto08">
+                        <span>
+                        Forma de contato no site do Grêmio
+                        </span>
+                    </li>
+
+                    <li id="foto09">
+                        <span>
+                        Login feito no site do Grêmio
+                        </span>
+                    </li>
+    
+    
+    
+    </div>
+    </section>
+
+    <div id="parceiros">
+
+        <h7>Parceiros</h7>
+        <h1>Passe o mouse para visualizar melhor a forma</h1>
+        <section>
+            <ul id="albumfotosPa">
+                        <li id="foto01">
+                            <span>
+                            Pedro e Matheus
+                            </span>
+                        </li>
+        
+                        <li id="foto02">
+                            <span>
+                            Pedro Morales tem 20 Anos mora em Viamão especialidades em Java
+                            </span>
+                        </li>
+        
+                        <li id="foto03">
+                            <span>
+                            Matheus Quiquio tem 19 Anos mora em Alvorada especialidades em Java
+                            </span>
+                        </li>
+        
+        
+        
+        </div>
+        </section>
+
+        <div class="container">
+            <h9>Entre em Contato</h9>
+            <div id="contato">
+                <form action="contato.php">
+                <section>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="Digite Seu Nome" required>
+                
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="m">Masculino</option>
+                    <option value="f">Feminino</option>
+                    <option value="o">Outro</option>
+                </select>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="reclamacao">Tipo de Reclamação:</label>
+                <select id="reclamacao" name="reclamacao">
+                    <option value="pagamento">Pagamentos</option>
+                    <option value="servico">Serviço</option>
+                    <option value="erros">Erros</option>
+                    <option value="outros">Outros</option>
+                </select>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </section>
+
+        
+        <h13>Google Maps</h13>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7914534002925!2d-51.22031983806631!3d-30.042840318634813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1693233782955!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+        
+        <h12>Redes Socias</h12>
+        <div class="redes">
+            <h1><a href="https://www.linkedin.com/in/davi-dias-a6225523a/"><img class="linkedin-icon" src="img/linkedin (1).png" alt="LinkedIn"></a> Meu Linkedin</h11>
+            <h2><a href="https://www.instagram.com/sdavi_dias/"><img class="insta-icon" src="img/instagram.png" alt="Instagram"></a> Meu Instagram</h22>
+            <h11><a href="https://github.com/DaviDias0/siteCode"><img class="github-icon" src="img/github (1).png" alt="GitHub"></a> Meu GitHub com o Código do Site</h12>
+        </div>
+
+
+        <footer class="footer">
+            <p4>&copy; 2023 Davi Dias. Todos os direitos reservados.</p4>
+        </footer>
+</body>
